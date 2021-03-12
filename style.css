@@ -16,15 +16,51 @@
   .nav-icon {
     width: 30px;
   }
+
   .nav-icon-a {
     width: 20px;
   }
 
-  .intro {
-    background-image: url(/Images/Fond.jpg);
+  .Intro {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(238, 200, 52, 0.8),
+        rgba(238, 200, 52, 0.8)
+      ),
+      url("./Images/Fond.jpg");
+    background-size: cover;
   }
 
-  #Image-Intro {
-    src: url(/Images/Fond.jpg);
+  .intro-img-center {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin-top: -30px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .btn-intro {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25em;
+  }
+
+  #Image-about {
+    padding-left: 2em;
+  }
+
+  #Image-code-barre {
+    height: 14em;
+  }
+
+  #Image-logo-jaune {
+    margin-left: 80px;
+    padding-bottom: 3em;
+  }
+
+  #Image-footer-icon {
+    padding: 1em;
   }
 }
