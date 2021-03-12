@@ -1,7 +1,19 @@
-.intro{
-background-image: url(/Images/Fond.jpg);
-}
+@media (max-width: 700px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
 
-#Image-Intro {
-src: url(/Images/Fond.jpg);
+  .nav-icon {
+  }
+
+  .intro {
+    background-image: url(/Images/Fond.jpg);
+  }
+
+  #Image-Intro {
+    src: url(/Images/Fond.jpg);
+  }
 }
